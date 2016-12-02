@@ -1,7 +1,7 @@
 Name: Christmas Time;
-Version: 1.1.1;
-Support Core: 14.0.0;
+Version: 2.0;
+Support Core: 15.5.4;
 Description: Праздничное дополнение отлично украсит ваш сайт и профиль на Новый Год;
-Author: Otshelnik-Fm;
-Author URI: http://wppost.ru/author/otshelnik-fm/;
-Add-on URI: http://wppost.ru/products/christmas-time-ukrashaem-sajt-i-profil-k-prazdnikam/;
+Author: Владимир Дружаев (Otshelnik-Fm);
+Author URI: https://codeseller.ru/author/otshelnik-fm/;
+Add-on URI: https://codeseller.ru/products/christmas-time-ukrashaem-sajt-i-profil-k-prazdnikam/;
