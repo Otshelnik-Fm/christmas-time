@@ -237,4 +237,14 @@ ul.lightrope li ,
     width: 64px;
     z-index: 1;
 }
+.office-grace .santa_hat {
+    left: auto;
+    right: -7px;
+    transform: rotate(90deg);
+    top: -25px;
+}
+.office-clear-sky .santa_hat {
+    left: -22px;
+    top: -6px;
+}
 /* end santa hat */
