@@ -1,5 +1,5 @@
 Name: Christmas Time;
-Version: 2.4;
+Version: 3.0;
 Support Core: 16.24.0;
 Description: Праздничное дополнение отлично украсит ваш сайт и профиль на Новый Год;
 Author: Владимир Дружаев (Otshelnik-Fm);
