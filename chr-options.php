@@ -89,12 +89,12 @@ function chrst_addon_options( $options ) {
     ) );
 
     $chr_warn = '';
-    if ( ! rcl_exist_addon( 'theme-sunshine' ) && ! rcl_exist_addon( 'theme-line' ) && ! rcl_exist_addon( 'theme-grace' ) && ! rcl_exist_addon( 'theme-clear-sky' ) ) {
+    if ( ! rcl_exist_addon( 'theme-sunshine' ) && ! rcl_exist_addon( 'theme-line' ) && ! rcl_exist_addon( 'theme-grace' ) && ! rcl_exist_addon( 'theme-clear-sky' ) && ! rcl_exist_addon( 'theme-control' ) ) {
         $args     = [
             'type'  => 'warning', // info,success,warning,error,simple
             'icon'  => 'fa-exclamation-triangle',
             'title' => 'Данная настройка не будет работать.',
-            'text'  => 'Опция работает только с шаблонами личного кабинета Sunshine, Grace, Line, Clear Sky',
+            'text'  => 'Опция работает только с шаблонами личного кабинета Sunshine, Grace, Line, Clear Sky, Theme Control + User Info Tab',
         ];
         $chr_warn .= rcl_get_notice( $args );
     }
