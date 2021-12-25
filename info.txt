@@ -1,6 +1,6 @@
 Name: Christmas Time;
-Version: 3.1;
-Support Core: 16.24.0;
+Version: 4.0;
+Support Core: 16.25.14;
 Description: Праздничное дополнение отлично украсит ваш сайт и профиль на Новый Год;
 Author: Владимир Дружаев (Otshelnik-Fm);
 Author URI: https://otshelnik-fm.ru/?utm_source=free-addons&utm_medium=addon-manager&utm_campaign=christmas-time&utm_content=not-domain&utm_term=home-page;

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+.chr-town-container {
+    margin: 12px 0;
+}
+
+.animation-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animation Styling */
+.animation-layer {
+    width: 100%;
+    position: absolute;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-top: 41.0149%; /* (img-height/img-width*container-width) (687/1675*100) */
+}
+
+.chr-content {
+    font-family: 'Mountains of Christmas', cursive;
+    position: relative;
+    clear: both;
+    text-align: center;
+    padding: 18px;
+    line-height: 1.4;
+}
+
+.chr-content__title {
+    color: #BB2528;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.chr-content__text {
+    color: #146B3A;
+    font-size: 24px;
+    margin-top: 18px;
+}
+
+/* Layer 2 */
+.layer-2 {
+    animation-name: move-layer-2;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-layer-2 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(7%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Layer 3 */
+.layer-3 {
+    animation-name: move-layer-3;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-layer-3 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-3%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

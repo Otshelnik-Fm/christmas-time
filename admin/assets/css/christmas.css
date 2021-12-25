@@ -1,0 +1,166 @@
+.rcl-bttn[data-options="chrst_box_id"] {
+    background: #deefff;
+}
+
+.rcl-bttn.rcl-bttn__active[data-options="chrst_box_id"],
+.rcl-bttn[data-options="chrst_box_id"]:hover {
+    opacity: 1 !important;
+    background: #f9e3db !important;
+}
+
+.rcl-menu.menu-items .fa-tree {
+    font-size: 20px;
+    color: #31AE68;
+    padding-right: 12px;
+}
+
+.rcl-menu.menu-items .fa-tree + .rcl-bttn__text {
+    font-size: 16px;
+    color: #1D7B46;
+}
+
+#chrst_box_id-options-box {
+    box-shadow: 0 0 12px 6px rgba(118, 157, 213, .8) inset, -18px 0 12px 6px rgba(118, 157, 213, .8) inset;
+    padding: 35px;
+    width: 580px;
+}
+
+#chrst_box_id-options-box::after {
+    background: rgba(180, 255, 209, .85);
+    color: #395e8e;
+    content: "Здоровья и удачи в 2022-м году! CodeSeller.ru";
+    display: table;
+    margin: 18px auto;
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#chrst_box_id-options-box .options-group {
+    background-color: rgba(163, 199, 238, .88);
+    border: none;
+    box-shadow: 0 0 6px 1px #3977ae;
+    font-size: 16px;
+    margin: 24px 0;
+    padding: 0;
+}
+
+#chrst_box_id-options-box .options-group .group-title {
+    background: #4d9167;
+    color: #fff399;
+    font-size: 24px;
+    line-height: normal;
+    padding: 6px 0 9px;
+    text-align: center;
+    text-shadow: 1px 2px 0 #24515e;
+    margin-bottom: 12px;
+}
+
+#chrst_box_id-options-box .rcl-field-notice .fa-info {
+    display: none;
+}
+
+#chrst_box_id-options-box .options-group .rcl-option .dashicons-editor-help {
+    color: #fff;
+    font-size: 26px;
+    margin-top: -3px;
+}
+
+#chrst_box_id-options-box .options-group .rcl-option {
+    box-sizing: border-box;
+    color: #0c3b64;
+    padding: 0 12px 6px;
+    margin: 0 0 12px;
+}
+
+#chrst_box_id-options-box .options-group .rcl-field-notice {
+    color: #0c3b64;
+    font-size: 14px;
+    margin: 6px 0 0 0;
+}
+
+#chrst_box_id-options-box .block-label {
+    background: #deeffd;
+    border: 0;
+    margin: 3px 3px 3px 0;
+}
+
+#chrst_box_id-options-box .options-group::after {
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+}
+
+#options-group-chrst_group_1::after {
+    height: 198px;
+}
+
+#options-group-chrst_group_2::after {
+    height: 124px;
+}
+
+#options-group-chrst_group_3::after {
+    height: 96px;
+}
+
+#options-group-chrst_group_4::after {
+    height: 170px;
+}
+
+#options-group-chrst_square::after {
+    height: 194px;
+}
+
+#options-group-chrst_group_5::after {
+    height: 150px;
+}
+
+#options-group-chrst_group_6::after {
+    height: 130px;
+}
+
+#options-group-chrst_group_7::after {
+    height: 90px;
+}
+
+#options-group-chrst_group_9::after {
+    background-size: cover;
+    height: 150px;
+}
+
+#options-group-chrst_group_10::after {
+    background-position-x: -20px;
+    background-size: cover;
+    height: 130px;
+}
+
+#options-group-chrst_group_11::after {
+    background-size: cover;
+    height: 165px;
+}
+
+#options-group-chrst_group_12::after {
+    background-position-x: -120px;
+    height: 210px;
+}
+
+#options-group-chrst_tree::after {
+    height: 206px;
+}
+
+#options-group-chrst_town::after {
+    height: 186px;
+}
+
+#options-group-chrst_radio::after {
+    height: 79px;
+}
+
+#options-group-chrst_avas::after {
+    height: 61px;
+}
+
+#options-group-chrst_tree_balls::after {
+    height: 110px;
+}
+

@@ -1,0 +1,22 @@
+.santa_hat {
+    background-repeat: no-repeat;
+    height: 64px;
+    left: -30px;
+    pointer-events: none;
+    position: absolute;
+    top: -11px;
+    width: 64px;
+    z-index: 1;
+}
+
+.office-grace .santa_hat {
+    left: auto;
+    right: -7px;
+    transform: rotate(90deg);
+    top: -25px;
+}
+
+.office-clear-sky .santa_hat {
+    left: -22px;
+    top: -6px;
+}
